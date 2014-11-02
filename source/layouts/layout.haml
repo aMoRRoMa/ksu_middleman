@@ -9,8 +9,10 @@
 
     = stylesheet_link_tag "application"
     = javascript_include_tag "modernizr"
-
-  %body{class: page_classes}
+  
+  -# If need page classes for body
+  -# %body{class: page_classes}
+  %body
 
     = yield
 
