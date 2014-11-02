@@ -2,8 +2,7 @@
 
 ## Using ##
 
-
-1. Clone template to your local middleman repo
+1.  Clone template to your local middleman repo
 ```
 #!unix
 
