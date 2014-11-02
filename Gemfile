@@ -8,6 +8,8 @@ gem "middleman", "~>3.3.6"
 gem 'jquery-rails', require: false
 gem "foundation-rails", require: false
 
+gem 'middleman-autoprefixer'
+
 gem "therubyracer"
 gem "middleman-minify-html"
 gem "middleman-imageoptim", "~> 0.1.4"

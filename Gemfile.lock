@@ -16,6 +16,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
+    autoprefixer-rails (3.1.2.20141016)
+      execjs
     builder (3.2.2)
     celluloid (0.16.0)
       timers (~> 4.0.0)
@@ -81,6 +83,9 @@ GEM
       middleman-sprockets (>= 3.1.2)
       sass (>= 3.4.0, < 4.0)
       uglifier (~> 2.5)
+    middleman-autoprefixer (2.2.2)
+      autoprefixer-rails (~> 3.1.0)
+      middleman-core (>= 3.3.3)
     middleman-core (3.3.6)
       activesupport (~> 4.1.0)
       bundler (~> 1.1)
@@ -159,6 +164,7 @@ DEPENDENCIES
   foundation-rails
   jquery-rails
   middleman (~> 3.3.6)
+  middleman-autoprefixer
   middleman-imageoptim (~> 0.1.4)
   middleman-minify-html
   therubyracer
