@@ -1,6 +1,8 @@
-# Foundation
+# Base
 #= require jquery
 #= require jquery_ujs
+
+# Foundation
 #= require foundation/foundation
 # require foundation/foundation.abide
 # require foundation/foundation.accordion
