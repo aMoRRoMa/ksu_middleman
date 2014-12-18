@@ -14,5 +14,5 @@ git clone git@bitbucket.org:headmadepro/middleman-foundation-template.git ~/.mid
 
 ```
 #!unix
-middleman inint your_project_name --template=foundation
+middleman init your_project_name --template=foundation
 ```
