@@ -63,6 +63,8 @@ set :images_dir, 'images'
 
 set :fonts_dir, 'fonts'
 
+set :audio_dir, 'audio'
+
 
 # Build-specific configuration
 configure :build do
