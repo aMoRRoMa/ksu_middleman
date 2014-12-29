@@ -1,26 +1,7 @@
 %audio{src:'audio/tell_her_this.mp3', autoplay:'', loop:'', type:'audio/mp3', preload:'auto'}
+
 %ul.cb-slideshow
-  %li
-    %span Image 01
-    %div
-      %h3 se·ren·i·ty
-  %li
-    %span Image 02
-    %div
-      %h3 com·po·sure
-  %li
-    %span Image 03
-    %div
-      %h3 e·qua·nim·i·ty
-  %li
-    %span Image 04
-    %div
-      %h3 bal·ance
-  %li
-    %span Image 05
-    %div
-      %h3 qui·e·tude
-  %li
-    %span Image 06
-    %div
-      %h3 re·lax·a·tion
+  - (1..39).each do |i|
+    %li
+      %span
+        Image #{i}
